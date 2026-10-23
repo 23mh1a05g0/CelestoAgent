@@ -1,0 +1,11 @@
+{
+  "concurrency_level": 5,
+  "scheduling_mode": "sequential_batch",
+  "environment": "simulated_local_test",
+  "live_cloud_status": "blocked_due_to_account_billing_subscription_required (HTTP 402)",
+  "rationale": "Cloud API tier quota preservation, determinism, and sequential audit verification across independently provisioned microVM identities.",
+  "completed_jobs": 5,
+  "failed_jobs": 0,
+  "wall_clock_s": 0.0,
+  "generated_at": "2026-10-22T06:02:36Z"
+}
