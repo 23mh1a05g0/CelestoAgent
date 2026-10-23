@@ -1,0 +1,54 @@
+services:
+  ledger:
+    image: postgres:16-alpine
+    container_name: celesto_ledger
+    restart: unless-stopped
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-postgres}
+      POSTGRES_DB: ${POSTGRES_DB:-celesto_ledger}
+    volumes:
+      - ./seeds/01_runs.sql:/docker-entrypoint-initdb.d/01_runs.sql:ro
+      - ledger_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d celesto_ledger"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+      start_period: 5s
+
+  control-plane:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: celesto_control_plane
+    restart: unless-stopped
+    ports:
+      - "${PORT:-8080}:8080"
+    environment:
+      PORT: 8080
+      HOST: 0.0.0.0
+      DATABASE_URL: postgresql+asyncpg://${POSTGRES_USER:-postgres}:${POSTGRES_PASSWORD:-postgres}@ledger:5432/${POSTGRES_DB:-celesto_ledger}
+      ENVIRONMENT: production
+      CELESTO_API_KEY: ${CELESTO_API_KEY:-}
+      LLM_PROVIDER: ${LLM_PROVIDER:-openai_compatible}
+      LLM_BASE_URL: ${LLM_BASE_URL:-https://api.openai.com/v1}
+      LLM_API_KEY: ${LLM_API_KEY:-}
+      LLM_MODEL: ${LLM_MODEL:-gpt-4o}
+    volumes:
+      - ./logs:/app/logs
+      - ./reports:/app/reports
+    depends_on:
+      ledger:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+
+volumes:
+  ledger_data:
