@@ -1,0 +1,8 @@
+{
+  "title": "AI Agent Sandbox Platform with Reliability Evaluations, Failure Recovery, and Security Containment",
+  "challenge": "Run Real Agent Work Inside Celesto Sandboxes with Evals and Containment",
+  "problem_statement": "AI agents interacting with real-world computer environments pose significant risks of data exfiltration, destructive host modifications, and nondeterministic run failures. This platform provides secure isolated microVM sandboxes with pre-execution safety hooks, network policy enforcement, automated failure recovery, and empirical reliability evaluations.",
+  "target_workload": "Autonomous coding agent resolving software bugs in controlled test repositories",
+  "version": "1.0.0",
+  "generated_at": "2026-10-22T06:02:36.946790"
+}
