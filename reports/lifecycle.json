@@ -1,0 +1,18 @@
+{
+  "supported_states": [
+    "booting",
+    "created",
+    "deleted",
+    "failed",
+    "paused",
+    "ready",
+    "running",
+    "stopped"
+  ],
+  "backend": "celesto_cloud_computer",
+  "live_cloud_status": "blocked_due_to_account_billing_subscription_required (HTTP 402)",
+  "lifecycle_transitions_recorded": 0,
+  "active_sandboxes_count": 0,
+  "events": [],
+  "generated_at": "2026-10-22T07:45:36.693527"
+}
