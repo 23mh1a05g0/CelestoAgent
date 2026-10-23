@@ -1,0 +1,339 @@
+{
+  "environment": "simulated_fallback",
+  "backend": "Simulated Computer (Offline Fallback)",
+  "live_cloud_evaluation": "blocked_due_to_account_billing_subscription_required (HTTP 402)",
+  "note": "Metrics reflect local offline simulated baseline. Live 20-run evaluation will be executed when Celesto Cloud billing/trial is activated.",
+  "summary": {
+    "total_runs": 20,
+    "successful_runs": 20,
+    "failed_runs": 0,
+    "success_rate": 1.0,
+    "median_wall_clock_s": 0.0,
+    "p90_wall_clock_s": 0.0,
+    "mean_boot_to_ready_s": 0.0,
+    "total_cost_usd": 0.0
+  },
+  "runs": [
+    {
+      "run_index": 1,
+      "run_id": "eval-run-001",
+      "sandbox_name": "sim-sbx-869762e234",
+      "sandbox_id": "sim-a040bf567302",
+      "status": "completed",
+      "success": true,
+      "wall_clock_s": 0.002,
+      "boot_to_ready_s": 0.0,
+      "cost_usd": 0.0,
+      "commands_executed": 2,
+      "exit_codes": [
+        0,
+        0
+      ]
+    },
+    {
+      "run_index": 2,
+      "run_id": "eval-run-002",
+      "sandbox_name": "sim-sbx-93a473f652",
+      "sandbox_id": "sim-acf6b64339df",
+      "status": "completed",
+      "success": true,
+      "wall_clock_s": 0.001,
+      "boot_to_ready_s": 0.0,
+      "cost_usd": 0.0,
+      "commands_executed": 2,
+      "exit_codes": [
+        0,
+        0
+      ]
+    },
+    {
+      "run_index": 3,
+      "run_id": "eval-run-003",
+      "sandbox_name": "sim-sbx-1f7eaaaea2",
+      "sandbox_id": "sim-13e33c1e76b5",
+      "status": "completed",
+      "success": true,
+      "wall_clock_s": 0.002,
+      "boot_to_ready_s": 0.0,
+      "cost_usd": 0.0,
+      "commands_executed": 2,
+      "exit_codes": [
+        0,
+        0
+      ]
+    },
+    {
+      "run_index": 4,
+      "run_id": "eval-run-004",
+      "sandbox_name": "sim-sbx-5d1107f10c",
+      "sandbox_id": "sim-92cc1e08d31a",
+      "status": "completed",
+      "success": true,
+      "wall_clock_s": 0.002,
+      "boot_to_ready_s": 0.001,
+      "cost_usd": 0.0,
+      "commands_executed": 2,
+      "exit_codes": [
+        0,
+        0
+      ]
+    },
+    {
+      "run_index": 5,
+      "run_id": "eval-run-005",
+      "sandbox_name": "sim-sbx-e71ff91dbe",
+      "sandbox_id": "sim-b7a0b557d49a",
+      "status": "completed",
+      "success": true,
+      "wall_clock_s": 0.003,
+      "boot_to_ready_s": 0.0,
+      "cost_usd": 0.0,
+      "commands_executed": 2,
+      "exit_codes": [
+        0,
+        0
+      ]
+    },
+    {
+      "run_index": 6,
+      "run_id": "eval-run-006",
+      "sandbox_name": "sim-sbx-bef42dab65",
+      "sandbox_id": "sim-bc655ea3444a",
+      "status": "completed",
+      "success": true,
+      "wall_clock_s": 0.002,
+      "boot_to_ready_s": 0.0,
+      "cost_usd": 0.0,
+      "commands_executed": 2,
+      "exit_codes": [
+        0,
+        0
+      ]
+    },
+    {
+      "run_index": 7,
+      "run_id": "eval-run-007",
+      "sandbox_name": "sim-sbx-d95f984712",
+      "sandbox_id": "sim-76b8c41297d7",
+      "status": "completed",
+      "success": true,
+      "wall_clock_s": 0.002,
+      "boot_to_ready_s": 0.0,
+      "cost_usd": 0.0,
+      "commands_executed": 2,
+      "exit_codes": [
+        0,
+        0
+      ]
+    },
+    {
+      "run_index": 8,
+      "run_id": "eval-run-008",
+      "sandbox_name": "sim-sbx-7a3815eb7f",
+      "sandbox_id": "sim-d217cc6cf80b",
+      "status": "completed",
+      "success": true,
+      "wall_clock_s": 0.003,
+      "boot_to_ready_s": 0.001,
+      "cost_usd": 0.0,
+      "commands_executed": 2,
+      "exit_codes": [
+        0,
+        0
+      ]
+    },
+    {
+      "run_index": 9,
+      "run_id": "eval-run-009",
+      "sandbox_name": "sim-sbx-0867f86fd0",
+      "sandbox_id": "sim-15d73c72467c",
+      "status": "completed",
+      "success": true,
+      "wall_clock_s": 0.002,
+      "boot_to_ready_s": 0.0,
+      "cost_usd": 0.0,
+      "commands_executed": 2,
+      "exit_codes": [
+        0,
+        0
+      ]
+    },
+    {
+      "run_index": 10,
+      "run_id": "eval-run-010",
+      "sandbox_name": "sim-sbx-0b855912e8",
+      "sandbox_id": "sim-64e697e56fb0",
+      "status": "completed",
+      "success": true,
+      "wall_clock_s": 0.002,
+      "boot_to_ready_s": 0.0,
+      "cost_usd": 0.0,
+      "commands_executed": 2,
+      "exit_codes": [
+        0,
+        0
+      ]
+    },
+    {
+      "run_index": 11,
+      "run_id": "eval-run-011",
+      "sandbox_name": "sim-sbx-f425a95ddd",
+      "sandbox_id": "sim-03fd67793e6d",
+      "status": "completed",
+      "success": true,
+      "wall_clock_s": 0.002,
+      "boot_to_ready_s": 0.001,
+      "cost_usd": 0.0,
+      "commands_executed": 2,
+      "exit_codes": [
+        0,
+        0
+      ]
+    },
+    {
+      "run_index": 12,
+      "run_id": "eval-run-012",
+      "sandbox_name": "sim-sbx-f4d11f4d90",
+      "sandbox_id": "sim-c04ddddfd0ed",
+      "status": "completed",
+      "success": true,
+      "wall_clock_s": 0.001,
+      "boot_to_ready_s": 0.0,
+      "cost_usd": 0.0,
+      "commands_executed": 2,
+      "exit_codes": [
+        0,
+        0
+      ]
+    },
+    {
+      "run_index": 13,
+      "run_id": "eval-run-013",
+      "sandbox_name": "sim-sbx-ad3d4239d8",
+      "sandbox_id": "sim-26bec32c7aad",
+      "status": "completed",
+      "success": true,
+      "wall_clock_s": 0.001,
+      "boot_to_ready_s": 0.0,
+      "cost_usd": 0.0,
+      "commands_executed": 2,
+      "exit_codes": [
+        0,
+        0
+      ]
+    },
+    {
+      "run_index": 14,
+      "run_id": "eval-run-014",
+      "sandbox_name": "sim-sbx-a005515251",
+      "sandbox_id": "sim-464fd1dfe899",
+      "status": "completed",
+      "success": true,
+      "wall_clock_s": 0.002,
+      "boot_to_ready_s": 0.001,
+      "cost_usd": 0.0,
+      "commands_executed": 2,
+      "exit_codes": [
+        0,
+        0
+      ]
+    },
+    {
+      "run_index": 15,
+      "run_id": "eval-run-015",
+      "sandbox_name": "sim-sbx-46042910f9",
+      "sandbox_id": "sim-e3b27b1aea81",
+      "status": "completed",
+      "success": true,
+      "wall_clock_s": 0.003,
+      "boot_to_ready_s": 0.0,
+      "cost_usd": 0.0,
+      "commands_executed": 2,
+      "exit_codes": [
+        0,
+        0
+      ]
+    },
+    {
+      "run_index": 16,
+      "run_id": "eval-run-016",
+      "sandbox_name": "sim-sbx-6b2eea4b47",
+      "sandbox_id": "sim-77780cb7692f",
+      "status": "completed",
+      "success": true,
+      "wall_clock_s": 0.003,
+      "boot_to_ready_s": 0.001,
+      "cost_usd": 0.0,
+      "commands_executed": 2,
+      "exit_codes": [
+        0,
+        0
+      ]
+    },
+    {
+      "run_index": 17,
+      "run_id": "eval-run-017",
+      "sandbox_name": "sim-sbx-c47866784b",
+      "sandbox_id": "sim-ebe208e4a523",
+      "status": "completed",
+      "success": true,
+      "wall_clock_s": 0.002,
+      "boot_to_ready_s": 0.0,
+      "cost_usd": 0.0,
+      "commands_executed": 2,
+      "exit_codes": [
+        0,
+        0
+      ]
+    },
+    {
+      "run_index": 18,
+      "run_id": "eval-run-018",
+      "sandbox_name": "sim-sbx-5633c18db8",
+      "sandbox_id": "sim-3b754f7a03b2",
+      "status": "completed",
+      "success": true,
+      "wall_clock_s": 0.002,
+      "boot_to_ready_s": 0.0,
+      "cost_usd": 0.0,
+      "commands_executed": 2,
+      "exit_codes": [
+        0,
+        0
+      ]
+    },
+    {
+      "run_index": 19,
+      "run_id": "eval-run-019",
+      "sandbox_name": "sim-sbx-fc175f6f8e",
+      "sandbox_id": "sim-7515072ab8bb",
+      "status": "completed",
+      "success": true,
+      "wall_clock_s": 0.0,
+      "boot_to_ready_s": 0.0,
+      "cost_usd": 0.0,
+      "commands_executed": 2,
+      "exit_codes": [
+        0,
+        0
+      ]
+    },
+    {
+      "run_index": 20,
+      "run_id": "eval-run-020",
+      "sandbox_name": "sim-sbx-31808a7539",
+      "sandbox_id": "sim-94bfd933986e",
+      "status": "completed",
+      "success": true,
+      "wall_clock_s": 0.003,
+      "boot_to_ready_s": 0.0,
+      "cost_usd": 0.0,
+      "commands_executed": 2,
+      "exit_codes": [
+        0,
+        0
+      ]
+    }
+  ],
+  "evaluated_at": "2026-10-22T06:02:36Z"
+}
