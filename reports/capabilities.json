@@ -1,0 +1,21 @@
+{
+  "capabilities": [
+    {
+      "name": "safety_hooks",
+      "type": "control_plane_callback_interceptor",
+      "status": "active",
+      "description": "Pre-execution command validation and auditing before guest execution, blocking destructive and exfiltration commands."
+    },
+    {
+      "name": "network_policy",
+      "type": "celesto_cloud_native",
+      "status": "active",
+      "description": "Outbound network isolation via mode: off configuration, preventing prompt-injection driven data exfiltration."
+    }
+  ],
+  "additional_supported": [
+    "persistent_home",
+    "published_ports"
+  ],
+  "generated_at": "2026-10-22T06:02:36.946790"
+}
