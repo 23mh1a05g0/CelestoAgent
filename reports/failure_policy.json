@@ -1,0 +1,8 @@
+{
+  "policy": "fresh",
+  "rationale": "The Celesto Cloud SDK does not expose snapshot or rollback capabilities for hosted computers. When a failure occurs (such as deliberate step 7 failure injection), the control plane deletes the failed sandbox, provisions a fresh computer with a new unique name, and re-executes the task from step 1. This provides maximum correctness: each retry starts from a known-clean state with no residual side effects from the failed attempt. The trade-off is higher cost and longer wall-clock time, but it guarantees absolute state integrity.",
+  "failure_trigger_step": 7,
+  "max_retries": 2,
+  "recovery_action": "terminate_failed_sandbox_and_provision_fresh",
+  "updated_at": "2026-10-22T06:02:36.954021"
+}
